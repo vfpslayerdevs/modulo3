@@ -1,0 +1,135 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Times News Roman', sans-serif;
+  }
+  h1{
+    text-align: center;
+  }
+  /* beginning Header*/
+  
+  #header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+  }
+  .navbar-brand{
+    padding-top: 15px;
+  }
+  .navbar-header h2{
+    text-align: left;
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    width: 100%;
+    background-color:gray;
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #nav-list a:hover {
+
+    background: #fff;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    top: 0;
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+   
+    margin-top: -30px;
+  }
+  .collapsable-nav{
+    color: #fff;
+ }
+ /*end header*/
+ /* main-content*/
+ #main-content{
+    background-color: gray;
+    height: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+    border: #fff solid 20px;
+ }
+#main-content h3{
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+@media (max-width: 767px) {
+    .navbar-header button.navbar-toggle {
+        top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+    #nav-list a {
+        opacity: 0.7;
+        width: 100%;
+        background-color: #dbd7d7;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #nav-list a:hover {
+        color:white;
+        background: gray;}
+    
+#main-content{
+    clear: both;
+    box-sizing: border-box;
+    height: 700px;
+    width: 600px;
+    border: 25px;
+}
+#main-content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    float: left;
+}
+}
+@media (max-width: 479px){
+    .navbar-header button.navbar-toggle {
+        top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+    #nav-list a {
+        opacity: 0.7;
+        width: 100%;
+        background-color: #dbd7d7;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #nav-list a:hover {
+        color:white;
+        background: gray;}
+    
+#main-content{
+    clear: both;
+    box-sizing: border-box;
+    height: 700px;
+    width: 360px;
+    border: 25px;
+
+}
+    
+    
